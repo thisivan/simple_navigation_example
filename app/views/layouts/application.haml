@@ -1,0 +1,17 @@
+!!! XML
+!!! Strict
+%html{ :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %title= "Simple Navigation - Sample Application"
+    = stylesheet_link_tag :all, :media => :all
+    = javascript_include_tag :all, :cache => true
+    = yield :head
+  %body
+    .wrapper
+      #page_header= simple_navigation :default
+      #page= yield
+      #page_footer
+        %p
+          2009 &copy; Ivan Torres (Mexpolk)
+          %br
+          Contact me at #{auto_link "mexpolk@gmail.com"}

@@ -1,0 +1,2918 @@
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:02:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:02:06) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:06:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `simple_navigation' for #<ActionView::Base:0xb6e90460>) on line #12 of app/views/layouts/application.haml:
+9:   %body
+10:     .wrapper
+11:       #page_header= simple_navigation :default
+12:       #page= yield
+13:       #page_footer
+14:         %p 2009 &copy; Ivan "Mexpolk" Torres
+
+    app/views/layouts/application.haml:12:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (115.3ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:07:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `simple_navigation' for #<ActionView::Base:0xb71a6848>) on line #12 of app/views/layouts/application.haml:
+9:   %body
+10:     .wrapper
+11:       #page_header= simple_navigation :default
+12:       #page= yield
+13:       #page_footer
+14:         %p 2009 &copy; Ivan "Mexpolk" Torres
+
+    app/views/layouts/application.haml:12:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (47.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:07:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `simple_navigation' for #<ActionView::Base:0xb6ef228c>) on line #12 of app/views/layouts/application.haml:
+9:   %body
+10:     .wrapper
+11:       #page_header= simple_navigation :default
+12:       #page= yield
+13:       #page_footer
+14:         %p 2009 &copy; Ivan "Mexpolk" Torres
+
+    app/views/layouts/application.haml:12:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (118.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:07:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #12 of app/views/layouts/application.haml:
+9:   %body
+10:     .wrapper
+11:       #page_header= simple_navigation :default
+12:       #page= yield
+13:       #page_footer
+14:         %p 2009 &copy; Ivan "Mexpolk" Torres
+
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:15:in `simple_navigation'
+    app/views/layouts/application.haml:12:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (117.4ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:09:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #12 of app/views/layouts/application.haml:
+9:   %body
+10:     .wrapper
+11:       #page_header= simple_navigation :default
+12:       #page= yield
+13:       #page_footer
+14:         %p 2009 &copy; Ivan "Mexpolk" Torres
+
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:15:in `simple_navigation'
+    app/views/layouts/application.haml:12:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (55.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:09:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:10:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 37ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:15:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:16:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:18:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 30ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 18:23:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 22:55:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 22:56:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 63ms (View: 61, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:06:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:7:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:7:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:6:in `each'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (163.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:06:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:10:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Wed Aug 05 23:15:19 -0500 2009
+  Status: 500 Internal Server Error
+  /home/ivan/code/plugins/simple_navigation_sample/app/helpers/simple_navigation_helper.rb:5: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+    - puts SimpleNavigation::Builder.navigation[name.to_sym].inspect
+                           ^
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /home/ivan/code/plugins/simple_navigation_sample/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:17:17) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `-@' for #<Hash:0xb716ce90>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (119.4ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:18:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `-@' for #<Hash:0xb71c34e8>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (121.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:19:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `-@' for #<Hash:0xb71b96b4>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (116.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:19:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `-@' for #<Hash:0xb71b96b4>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (49.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:19:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Wed Aug 05 23:19:58 -0500 2009
+  Status: 500 Internal Server Error
+  /home/ivan/code/plugins/simple_navigation_sample/app/helpers/simple_navigation_helper.rb:5: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+    - puts SimpleNavigation::Builder.navigation[name.to_sym].inspect
+                           ^
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /home/ivan/code/plugins/simple_navigation_sample/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 05 23:20:10 -0500 2009
+  Status: 500 Internal Server Error
+  /home/ivan/code/plugins/simple_navigation_sample/app/helpers/simple_navigation_helper.rb:5: syntax error, unexpected '=', expecting kEND
+    = puts SimpleNavigation::Builder.navigation[name.to_sym].inspect
+     ^
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /home/ivan/code/plugins/simple_navigation_sample/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 05 23:20:12 -0500 2009
+  Status: 500 Internal Server Error
+  /home/ivan/code/plugins/simple_navigation_sample/app/helpers/simple_navigation_helper.rb:5: syntax error, unexpected '=', expecting kEND
+    = puts SimpleNavigation::Builder.navigation[name.to_sym].inspect
+     ^
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /home/ivan/code/plugins/simple_navigation_sample/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 05 23:20:24 -0500 2009
+  Status: 500 Internal Server Error
+  /home/ivan/code/plugins/simple_navigation_sample/app/helpers/simple_navigation_helper.rb:5: syntax error, unexpected tCONSTANT, expecting kEND
+...T_LOGGER.info SimpleNavigation::Builder.navigation[name.to_s...
+                              ^
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /home/ivan/code/plugins/simple_navigation_sample/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 05 23:20:32 -0500 2009
+  Status: 500 Internal Server Error
+  /home/ivan/code/plugins/simple_navigation_sample/app/helpers/simple_navigation_helper.rb:5: syntax error, unexpected tCONSTANT, expecting kEND
+...T_LOGGER.info SimpleNavigation::Builder.navigation[name.to_s...
+                              ^
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/helpers.rb:115:in `helper'
+    /home/ivan/code/plugins/simple_navigation_sample/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:20:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+optionsi18nfalsemenusurlactionindexcontroller/dashboardoptionsi18nfalseprefixsimple_navigation_defaultnamehomeidsimple_navigation_default_homeurlactionindexcontroller/dashboardoptionsi18nfalseprefixsimple_navigation_defaultnameanotheridsimple_navigation_default_anotherurlactionindexcontroller/dashboardoptionsi18nfalseprefixsimple_navigation_defaultnameyet_anoteridsimple_navigation_default_yet_anoternamedefaultidsimple_navigation_default
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:20:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:21:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+optionsi18nfalsemenusurlactionindexcontroller/dashboardoptionsi18nfalseprefixsimple_navigation_defaultnamehomeidsimple_navigation_default_homeurlactionindexcontroller/dashboardoptionsi18nfalseprefixsimple_navigation_defaultnameanotheridsimple_navigation_default_anotherurlactionindexcontroller/dashboardoptionsi18nfalseprefixsimple_navigation_defaultnameyet_anoteridsimple_navigation_default_yet_anoternamedefaultidsimple_navigation_default
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:21:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>false}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>false, :prefix=>"simple_navigation_default"}, :name=>:home, :id=>:simple_navigation_default_home}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>false, :prefix=>"simple_navigation_default"}, :name=>:another, :id=>:simple_navigation_default_another}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>false, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:22:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>false}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>false, :prefix=>"simple_navigation_default"}, :name=>:home, :id=>:simple_navigation_default_home}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>false, :prefix=>"simple_navigation_default"}, :name=>:another, :id=>:simple_navigation_default_another}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>false, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:23:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:home, :translation=>"simple_navigation.default.menus.home.title", :id=>:simple_navigation_default_home}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:another, :translation=>"simple_navigation.default.menus.another.title", :id=>:simple_navigation_default_another}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:24:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:home, :translation=>"simple_navigation.default.menus.home.title", :id=>:simple_navigation_default_home}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:another, :translation=>"simple_navigation.default.menus.another.title", :id=>:simple_navigation_default_another}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:26:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_home"}, :name=>:another, :translation=>"simple_navigation.default.menus.home.menus.another.title", :id=>:simple_navigation_default_home_another}], :name=>:home, :translation=>"simple_navigation.default.menus.home.title", :id=>:simple_navigation_default_home}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:28:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_home"}, :name=>:another, :translation=>"simple_navigation.default.menus.home.menus.another.title", :id=>:simple_navigation_default_home_another}], :name=>:home, :translation=>"simple_navigation.default.menus.home.title", :id=>:simple_navigation_default_home}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 21ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:29:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:34:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:36:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:36:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 21ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:36:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 106ms (View: 103, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:36:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:37:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:37:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-05 23:37:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 95ms (View: 89, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 00:09:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :urls=>[], :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :urls=>[{:controller=>"/dashboard", :only=>"index"}], :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :urls=>[], :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 00:09:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :urls=>[{:controller=>"/dashboard", :only=>"index"}], :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 00:48:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 19ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 00:50:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert Array into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:34:in `<<'
+    app/helpers/simple_navigation_helper.rb:34:in `render_menu_title'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:6:in `map'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (58.4ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 00:56:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert Array into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:34:in `<<'
+    app/helpers/simple_navigation_helper.rb:34:in `render_menu_title'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:6:in `map'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (60.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:10:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert nil into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:13:in `+'
+    app/helpers/simple_navigation_helper.rb:13:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:6:in `map'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (56.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:10:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert nil into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:13:in `+'
+    app/helpers/simple_navigation_helper.rb:13:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:6:in `map'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (58.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:10:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert nil into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:13:in `+'
+    app/helpers/simple_navigation_helper.rb:13:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:6:in `map'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (55.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:10:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert nil into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:12:in `+'
+    app/helpers/simple_navigation_helper.rb:12:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:6:in `map'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (74.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:10:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert nil into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:12:in `+'
+    app/helpers/simple_navigation_helper.rb:12:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:6:in `map'
+    app/helpers/simple_navigation_helper.rb:6:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (55.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:11:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert nil into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:13:in `+'
+    app/helpers/simple_navigation_helper.rb:13:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `map'
+    app/helpers/simple_navigation_helper.rb:12:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:7:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:7:in `map'
+    app/helpers/simple_navigation_helper.rb:7:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:12:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 101ms (View: 95, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:13:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 26ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:13:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:14:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:15:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :urls=>[{:controller=>"/dashboard", :only=>"index"}], :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+nil
+["<li id=\"simple_navigation_default_dashboard_another\"><a href=\"/dashboard\">Another</a></li>"]
+nil
+Completed in 21ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:16:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{:options=>{:i18n=>true}, :menus=>[{:title=>"Welcome", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :menus=>[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}], :name=>:dashboard, :urls=>[{:controller=>"/dashboard", :only=>"index"}], :translation=>"simple_navigation.default.menus.dashboard.title", :id=>:simple_navigation_default_dashboard}, {:title=>"Settings", :url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default"}, :name=>:yet_anoter, :translation=>"simple_navigation.default.menus.yet_anoter.title", :id=>:simple_navigation_default_yet_anoter}], :name=>:default, :id=>:simple_navigation_default}
+nil
+[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}]
+nil
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:16:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+nil
+[{:url=>{:action=>"index", :controller=>"/dashboard"}, :options=>{:i18n=>true, :prefix=>"simple_navigation_default_dashboard"}, :name=>:another, :translation=>"simple_navigation.default.menus.dashboard.menus.another.title", :id=>:simple_navigation_default_dashboard_another}]
+nil
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:16:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:17:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 24ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:19:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+nil
+["<li id=\"simple_navigation_default_dashboard_another\"><a href=\"/dashboard\">Another</a></li>"]
+nil
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:21:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+nil
+"<li id=\"simple_navigation_default_dashboard_another\"><a href=\"/dashboard\">Another</a></li>"
+nil
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:21:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+nil
+"<li id=\"simple_navigation_default_dashboard_another\"><a href=\"/dashboard\">Another</a></li>"
+nil
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:21:48) [GET]
+Rendering template within layouts/application
+Rendering home/index
+nil
+
+ActionView::TemplateError (can't convert nil into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:14:in `+'
+    app/helpers/simple_navigation_helper.rb:14:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `map'
+    app/helpers/simple_navigation_helper.rb:12:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:7:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:7:in `map'
+    app/helpers/simple_navigation_helper.rb:7:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (109.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:21:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+nil
+
+ActionView::TemplateError (can't convert nil into String) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:14:in `+'
+    app/helpers/simple_navigation_helper.rb:14:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `map'
+    app/helpers/simple_navigation_helper.rb:12:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:7:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:7:in `map'
+    app/helpers/simple_navigation_helper.rb:7:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:22:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+""
+"<li id=\"simple_navigation_default_dashboard_another\"><a href=\"/dashboard\">Another</a></li>"
+""
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:24:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.map) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:15:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:15:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:15:in `map'
+    app/helpers/simple_navigation_helper.rb:15:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:7:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:7:in `map'
+    app/helpers/simple_navigation_helper.rb:7:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (60.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:25:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+""
+"<ul id=\"simple_navigation_default_dashboard_menus\"><li id=\"simple_navigation_default_dashboard_another\"><a href=\"/dashboard\">Another</a></li></ul>"
+""
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:26:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+""
+"<ul><li id=\"simple_navigation_default_dashboard_another\"><a href=\"/dashboard\">Another</a></li></ul>"
+""
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:27:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+""
+"<ul><li id=\"simple_navigation_default_dashboard_another\"><a href=\"/dashboard\">Another</a></li></ul>"
+""
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:27:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+""
+"<ul><li id=\"simple_navigation_default_menus_dashboard_menus_another\"><a href=\"/dashboard\">Another</a></li></ul>"
+""
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 01:28:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+""
+"<ul><li id=\"simple_navigation_default_menus_dashboard_menus_another\"><a href=\"/dashboard\">Otro</a></li></ul>"
+""
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 02:04:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 89ms (View: 83, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 02:06:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 02:07:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 02:08:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:10:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:11:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 110ms (View: 104, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:13:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 22ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:14:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:14:40) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:19:17) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:20:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 69ms (View: 65, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:20:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:20:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:22:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:22:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:24:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 79ms (View: 76, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:27:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:37:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:39:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 92ms (View: 87, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:54:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+home
+home
+home
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:54:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+index
+index
+index
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:55:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{"action"=>"index", "controller"=>"home"}
+{"action"=>"index", "controller"=>"home"}
+{"action"=>"index", "controller"=>"home"}
+Completed in 155ms (View: 150, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:56:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+{"action"=>"index", "controller"=>"home"}
+{"action"=>"index", "controller"=>"home"}
+{"action"=>"index", "controller"=>"home"}
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 03:58:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+(controller.params[:controller] == menu[:url][:controller].gsub(/^//, '')) &&
+      (controller.params[:controller] == menu[:url][:action] || menu[:url][:action] == nil)
+
+(controller.params[:controller] == menu[:url][:controller].gsub(/^//, '')) &&
+      (controller.params[:controller] == menu[:url][:action] || menu[:url][:action] == nil)
+
+(controller.params[:controller] == menu[:url][:controller].gsub(/^//, '')) &&
+      (controller.params[:controller] == menu[:url][:action] || menu[:url][:action] == nil)
+
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:00:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+(controller.params[:controller] == menu[:url][:controller]) &&
+      (controller.params[:controller] == menu[:url][:action] || menu[:url][:action] == nil)
+
+(controller.params[:controller] == menu[:url][:controller]) &&
+      (controller.params[:controller] == menu[:url][:action] || menu[:url][:action] == nil)
+
+(controller.params[:controller] == menu[:url][:controller]) &&
+      (controller.params[:controller] == menu[:url][:action] || menu[:url][:action] == nil)
+
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:00:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+(controller.params[:controller] == menu[:url][:controller]) &&
+      (controller.params[:controller] == menu[:url][:action] || menu[:url][:action] == nil)
+
+(controller.params[:controller] == menu[:url][:controller]) &&
+      (controller.params[:controller] == menu[:url][:action] || menu[:url][:action] == nil)
+
+(controller.params[:controller] == menu[:url][:controller]) &&
+      (controller.params[:controller] == menu[:url][:action] || menu[:url][:action] == nil)
+
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:01:38) [GET]
+Rendering template within layouts/application
+Rendering home/index
+home
+index
+/dashboard
+index
+controller/dashboardonlyindex
+home
+index
+/dashboard
+index
+
+home
+index
+/dashboard
+index
+
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:02:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+home
+index
+/dashboard
+index
+controller/dashboardonlyindex
+home
+index
+/dashboard
+index
+
+home
+index
+/dashboard
+index
+
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:02:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+home
+index
+dashboard
+index
+controllerdashboardonlyindex
+home
+index
+dashboard
+index
+
+home
+index
+dashboard
+index
+
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:03:40) [GET]
+Rendering template within layouts/application
+Rendering home/index
+home
+index
+home
+index
+controllerhomeonlyindex
+home
+index
+home
+index
+
+home
+index
+home
+index
+
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:04:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+home
+index
+home
+index
+controllerhomeonlyindex
+home
+index
+home
+index
+
+home
+index
+home
+index
+
+Completed in 23ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:05:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+simple_navigation_default_menus_dashboard
+home
+index
+home
+index
+controllerhomeonlyindex
+true
+simple_navigation_default_menus_dashboard_menus_another
+home
+index
+home
+index
+
+
+simple_navigation_default_menus_yet_anoter
+home
+index
+home
+index
+
+
+Completed in 87ms (View: 80, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:05:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+simple_navigation_default_menus_dashboard
+home
+index
+home
+index
+[{:controller=>"home", :only=>"index"}]
+true
+simple_navigation_default_menus_dashboard_menus_another
+home
+index
+home
+index
+nil
+
+simple_navigation_default_menus_yet_anoter
+home
+index
+home
+index
+nil
+
+Completed in 24ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:07:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+************************************************
+simple_navigation_default_menus_dashboard
+home
+index
+home
+index
+[{:controller=>"home", :only=>"index"}]
+************************************************
+true
+************************************************
+************************************************
+simple_navigation_default_menus_dashboard_menus_another
+home
+index
+home
+index
+nil
+************************************************
+
+************************************************
+************************************************
+simple_navigation_default_menus_yet_anoter
+home
+index
+home
+index
+nil
+************************************************
+
+************************************************
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:08:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+************************************************
+simple_navigation_default_menus_dashboard
+home
+index
+home
+index
+[{:controller=>"home", :only=>"index"}]
+************************************************
+true
+************************************************
+************************************************
+simple_navigation_default_menus_dashboard_menus_another
+home
+index
+home
+index
+nil
+************************************************
+true
+************************************************
+************************************************
+simple_navigation_default_menus_yet_anoter
+home
+index
+home
+index
+nil
+************************************************
+true
+************************************************
+Completed in 23ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:16:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 32ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:18:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:28:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `options' for #<ActionView::Base:0xb6f85744>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (120.2ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:31:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `options' for #<ActionView::Base:0xb732c730>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (50.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:31:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `match' for -611286978:Fixnum) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:23:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (122.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:32:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `match' for -611286978:Fixnum) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:23:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (49.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:33:48) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `match' for -611286978:Fixnum) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:23:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (138.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:34:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `match' for :simple_navigation_default_menus_dashboard_menus_another:Symbol) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:23:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (49.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:34:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `match' for :simple_navigation_default_menus_dashboard_menus_another:Symbol) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:23:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:11:in `map'
+    app/helpers/simple_navigation_helper.rb:11:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (129.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:35:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `match' for :simple_navigation_default_menus_dashboard_menus_another:Symbol) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:24:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:12:in `map'
+    app/helpers/simple_navigation_helper.rb:12:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:35:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `match' for :simple_navigation_default_menus_dashboard_menus_another:Symbol) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:24:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:12:in `map'
+    app/helpers/simple_navigation_helper.rb:12:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (131.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:35:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `match' for :simple_navigation_default_menus_dashboard_menus_another:Symbol) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:24:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:12:in `map'
+    app/helpers/simple_navigation_helper.rb:12:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (64.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:36:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `match' for :simple_navigation_default_menus_dashboard_menus_another:Symbol) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:24:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:12:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:12:in `map'
+    app/helpers/simple_navigation_helper.rb:12:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (134.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:36:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:38:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:38:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:41:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:43:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:45:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `class_name' for #<ActionView::Base:0xb70244fc>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:30:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:26:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:26:in `map'
+    app/helpers/simple_navigation_helper.rb:26:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:16:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:16:in `map'
+    app/helpers/simple_navigation_helper.rb:16:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (120.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:46:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:31:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:27:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:27:in `map'
+    app/helpers/simple_navigation_helper.rb:27:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:16:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:16:in `map'
+    app/helpers/simple_navigation_helper.rb:16:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (52.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:46:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:32:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:28:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:28:in `map'
+    app/helpers/simple_navigation_helper.rb:28:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:16:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:16:in `map'
+    app/helpers/simple_navigation_helper.rb:16:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (145.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:46:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/helpers/simple_navigation_helper.rb:32:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:28:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:28:in `map'
+    app/helpers/simple_navigation_helper.rb:28:in `render_menu'
+    app/helpers/simple_navigation_helper.rb:16:in `simple_navigation'
+    app/helpers/simple_navigation_helper.rb:16:in `map'
+    app/helpers/simple_navigation_helper.rb:16:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (57.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:58:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `simple_navigation' for #<ActionView::Base:0xb6f6965c>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (122.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:58:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `menu_class' for #<ActionView::Base:0xb6f3e1b4>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:39:in `render_menu'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:25:in `render_menu'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:25:in `map'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:25:in `render_menu'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:14:in `simple_navigation'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:14:in `map'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:14:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (124.2ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 04:59:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:25:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:26:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 93ms (View: 90, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:27:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:27:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:27:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:27:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:27:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:27:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:28:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:29:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 25ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:30:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:30:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:30:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:31:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:31:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:31:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 70ms (View: 67, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:31:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:34:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:34:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:34:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:35:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:35:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:35:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:35:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 108ms (View: 101, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:40:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:41:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:41:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:42:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:43:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:44:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 19ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:44:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:44:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:44:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 59ms (View: 56, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:45:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:45:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 82ms (View: 79, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:46:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 37ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:47:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 37ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:48:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:49:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 36ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:52:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:52:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:52:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:52:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:55:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 33ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 05:58:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 17ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 06:07:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered application/_content (2.6ms)
+Completed in 41ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:07:52) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.4ms)
+Completed in 33ms (View: 27, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing PagesController#two (for 127.0.0.1 at 2009-08-06 06:07:57) [GET]
+Rendering template within layouts/application
+Rendering pages/two
+Rendered application/_content (0.2ms)
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/two]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:07:59) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.1ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 06:08:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered application/_content (0.6ms)
+Completed in 28ms (View: 21, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:08:05) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.4ms)
+Completed in 25ms (View: 19, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:08:33) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.3ms)
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:09:07) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.1ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:10:14) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.2ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:11:37) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.1ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-06 06:11:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered application/_content (0.4ms)
+Completed in 25ms (View: 18, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing PagesController#two (for 127.0.0.1 at 2009-08-06 06:11:46) [GET]
+Rendering template within layouts/application
+Rendering pages/two
+Rendered application/_content (0.3ms)
+Completed in 25ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/two]
+
+
+Processing PagesController#two (for 127.0.0.1 at 2009-08-06 06:12:12) [GET]
+Rendering template within layouts/application
+Rendering pages/two
+Rendered application/_content (0.1ms)
+Completed in 71ms (View: 69, DB: 0) | 200 OK [http://localhost/pages/two]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:12:18) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.3ms)
+Completed in 29ms (View: 17, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:12:51) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.1ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:13:11) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:13:43) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.1ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:13:54) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.2ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:14:09) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.1ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing PagesController#two (for 127.0.0.1 at 2009-08-06 06:14:14) [GET]
+Rendering template within layouts/application
+Rendering pages/two
+Rendered application/_content (0.3ms)
+Completed in 23ms (View: 17, DB: 0) | 200 OK [http://localhost/pages/two]
+
+
+Processing HomeController#settings (for 127.0.0.1 at 2009-08-06 06:14:19) [GET]
+Rendering template within layouts/application
+Rendering home/settings
+Rendered application/_content (0.3ms)
+Completed in 23ms (View: 17, DB: 0) | 200 OK [http://localhost/home/settings]
+
+
+Processing PagesController#two (for 127.0.0.1 at 2009-08-06 06:14:22) [GET]
+Rendering template within layouts/application
+Rendering pages/two
+Rendered application/_content (0.3ms)
+Completed in 23ms (View: 17, DB: 0) | 200 OK [http://localhost/pages/two]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:15:21) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.2ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:39:04) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (2.8ms)
+Completed in 39ms (View: 36, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:42:05) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.4ms)
+Completed in 24ms (View: 18, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:42:20) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (2.7ms)
+Completed in 37ms (View: 35, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:46:50) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.4ms)
+Completed in 24ms (View: 18, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:52:14) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (2.7ms)
+
+ActionView::TemplateError (undefined local variable or method `html_attributes' for #<ActionView::Base:0xb6e64c70>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:34:in `render_menu'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:19:in `simple_navigation'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:19:in `map'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:19:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (116.2ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:53:10) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (1.0ms)
+
+ActionView::TemplateError (undefined local variable or method `html_attributes' for #<ActionView::Base:0xb7174ff0>) on line #15 of app/views/layouts/application.haml:
+12:       #page= yield
+13:       #page_footer
+14:         %p
+15:           2009 &copy; Ivan Torres (Mexpolk)
+16:           %br
+17:           Contact me at #{auto_link "mexpolk@gmail.com"}
+
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:34:in `render_menu'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:19:in `simple_navigation'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:19:in `map'
+    /usr/lib/ruby/gems/1.8/gems/simple_navigation-1.0/lib/simple_navigation.rb:19:in `simple_navigation'
+    app/views/layouts/application.haml:15:in `_run_haml_app47views47layouts47application46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:53:17) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (2.4ms)
+Completed in 36ms (View: 34, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:55:58) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (2.5ms)
+simple_navigation_default_menus_pages_menus_page_one
+simple_navigation_default_menus_pages_menus_page_one
+simple_navigation_default_menus_pages_menus_page_one
+simple_navigation_default_menus_pages
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 06:58:18) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (2.5ms)
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 07:02:57) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (2.5ms)
+Completed in 36ms (View: 34, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 07:03:53) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.3ms)
+Completed in 23ms (View: 17, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 07:04:31) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.2ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 07:04:37) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.3ms)
+Completed in 26ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 07:06:17) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.3ms)
+Completed in 30ms (View: 22, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-06 07:06:18) [GET]
+
+ActionController::RoutingError (No route matches "/images/arrow.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 07:06:40) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.2ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-06 07:06:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/arrow.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 07:06:50) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.1ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-06 07:06:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/arrow.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 07:07:24) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.4ms)
+Completed in 25ms (View: 18, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-06 07:07:24) [GET]
+
+ActionController::RoutingError (No route matches "/images/arrow.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#one (for 127.0.0.1 at 2009-08-06 07:09:19) [GET]
+Rendering template within layouts/application
+Rendering pages/one
+Rendered application/_content (0.1ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/one]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-06 07:09:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/arrow.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

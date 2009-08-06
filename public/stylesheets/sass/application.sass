@@ -1,0 +1,94 @@
+// Default colors
+!menu_text_color = #FFF
+!menu_bg_color = #333
+
+// Current tab|menu being viewed
+!current_menu_text_color = #FFF
+!current_menu_bg_color = #555
+
+// Hover style for tab and menus
+!hover_menu_bg_color = #777
+
+// Drop down menu image (arrow down)
+!drop_down_image = "url(/images/easy_navigation/arrow.png)"
+
+!dark = #333
+!gray = #555
+!white = #FFF
+
+*
+  font-family: Arial,serif
+
+body
+  color= !gray
+  font-size: 14px
+
+h1
+  color= !dark
+  margin: 0
+  padding: 20px 0
+
+.wrapper
+  margin: 20px
+
+#page_header
+  .simple_navigation
+    font-size: 12px
+    font-weight: bold
+    line-height: 30px
+    margin: 0
+    padding: 0
+
+    a
+      display: block
+      padding: 0 10px
+      text-decoration: none
+
+    li
+      list-style: none
+
+    ul
+      margin: 0
+      padding: 0
+
+    ul[depth=1]
+      li.menu
+        clear: left
+
+    li.menu
+      float: left
+      a
+        color = !menu_text_color
+        background-color = !menu_bg_color
+      ul
+        background-color = !menu_bg_color
+        left: auto
+        min-width: 150px
+        padding: 0
+        position: absolute
+        top: auto
+        z-index: 10000
+
+        .menu, a
+          float: none
+          color = !menu_text_color
+          background-color = !menu_bg_color
+
+    li.menu[drop_down=true]
+      background:
+        image: url(/images/arrow.png)
+        repeat: no-repeat
+        position: 95% 60%
+      padding-right: 5px
+
+    // Current
+    .menu.current a,
+    .menu.current_child > a
+      background-color = !current_menu_bg_color
+      color = !current_menu_text_color
+
+#page
+  clear: both
+
+#page_footer
+  padding-top: 20px

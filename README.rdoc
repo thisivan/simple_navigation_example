@@ -1,0 +1,51 @@
+= Simple Navigation Example
+
+An example rails app using the simple_navigation gem
+
+== Requirements
+
+* haml gem
+* simple_navigation gem
+* Rails 2.3.3 (may work with older versions, not tested)
+
+== Install
+
+Checkout the sources:
+
+  git clone git://github.com/mexpolk/simple_navigation_example.git
+
+Install the required gems, from the command line run:
+
+  sudo gem install haml
+  sudo gem install mexpolk-simple_navigation --source http://github.com
+
+== Notes
+
+What I did in this app:
+
+* config/environment.rb: Configured simple_navigation gem
+* config/initializers/simple_navigation.rb: This is where navigation menus (like the one you're seeing right now) are configured.
+* public/javascripts and public/style_sheets: Added some javascript and CSS (kind of messy, will fix it later) for the menu to work.
+
+== License
+
+Copyright (c) 2008 Iván "Mexpolk" Torres
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
