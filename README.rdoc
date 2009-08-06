@@ -6,7 +6,7 @@ An example rails app using the simple_navigation gem
 
 * haml gem
 * simple_navigation gem
-* Rails 2.3.3 (may work with older versions, not tested)
+* Rails 2.3.3
 
 == Install
 
