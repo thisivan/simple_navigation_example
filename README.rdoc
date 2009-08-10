@@ -17,7 +17,7 @@ Checkout the sources:
 Install the required gems, from the command line run:
 
   sudo gem install haml
-  sudo gem install mexpolk-simple_navigation --source http://github.com
+  sudo gem install mexpolk-simple_navigation --source http://gems.github.com
 
 == Notes
 
